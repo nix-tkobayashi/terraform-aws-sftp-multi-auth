@@ -4,6 +4,9 @@
 
 This Terraform configuration sets up a workflow that uses AWS Transfer Family to configure an SFTP server for uploading files to an S3 bucket. Uploaded files are managed through SQS queues and processed by Lambda functions.
 
+## Architecture
+![alt text](images/image.png)
+
 ## Authentication Methods
 
 The SFTP server supports two authentication methods:
